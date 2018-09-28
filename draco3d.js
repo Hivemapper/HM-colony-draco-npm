@@ -6,6 +6,6 @@ var createEncoderModule = require('./draco_encoder_nodejs');
 var createDecoderModule = require('./draco_decoder_nodejs');
 
 module.exports = {
-  createEncoderModule,
-  createDecoderModule
+  createEncoderModule: createEncoderModule,
+  createDecoderModule: createDecoderModule
 }
